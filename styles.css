@@ -1,3 +1,39 @@
-body {
-    background-color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainContainer {
+    height: 100vh;
+}
+
+#leftSide {
+    width: 30%;
+    position: relative;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+}
+
+.imgContainer {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    top: 20%;
+}
+
+#odinLogo {
+    height: 150px;
+}
+
+#odinText {
+    color: aliceblue;
+    font-size: 3rem;
 }
